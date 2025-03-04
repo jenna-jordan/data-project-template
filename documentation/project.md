@@ -47,7 +47,7 @@ my-data-project
 │       └── example_source.json
 │   ├── 1_cleaned
 │       └── example_cleaned.csv
-|   ├── 2_transformed
+│   ├── 2_transformed
 │       └── example_transformed.parquet
 │   └── 3_final
 │       └── example_final.csv
@@ -67,9 +67,9 @@ my-data-project
 │       └── example.png
 │   ├── original_documents
 │       └── example.txt
-|   ├── project.md
-|   ├── resources.md
-|   └── sources.md
+│   ├── project.md
+│   ├── resources.md
+│   └── sources.md
 ```
 
 - example.png: an image file used in the README
