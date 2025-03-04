@@ -26,18 +26,21 @@ Document the file structure and files of the project here
 
 ### Code
 
+```
 my-data-project
 ├── code
 │   ├── analysis
 │       └── example_analysis.ipynb
 │   └── data_wrangling
 │       └── example_transformation.ipynb
+```
 
 - example_analysis.ipynb: contains code analyzing some dataset
 - example_transformation.ipynb: contains code for cleaning and transforming some dataset
 
 ### Data
 
+```
 my-data-project
 ├── data
 │   ├── 0_raw
@@ -48,6 +51,7 @@ my-data-project
 │       └── example_transformed.parquet
 │   └── 3_final
 │       └── example_final.csv
+```
 
 - example_source.json: the raw, unmodified source data from example source
 - example_cleaned.csv: data from example source that has been cleaned and is ready for further transformation
@@ -56,6 +60,7 @@ my-data-project
 
 ### Documentation
 
+```
 my-data-project
 ├── documentation
 │   ├── images
@@ -65,6 +70,7 @@ my-data-project
 |   ├── project.md
 |   ├── resources.md
 |   └── sources.md
+```
 
 - example.png: an image file used in the README
 - example.txt: documentation provided by organization A about dataset Z
@@ -74,12 +80,14 @@ my-data-project
 
 ### Admin
 
+```
 my-data-project
 ├── .gitignore
 ├── COLLABORATORS
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+```
 
 - .gitignore: standard Python gitignore file, lists all files/folders not committed to GitHub
 - COLLABORATORS: lists GitHub usernames of everyone who made commits to this repo
